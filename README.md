@@ -10,8 +10,8 @@ daha yukarıda gözükmek için 2 saat 5 dakika da bir !d bump yazdırır.
 
 
 
-install and setup
------------------
+Kurulum ve çalıştırma
+---------------------
 
 https://www.youtube.com/watch?v=6ewroxmzrzE
 

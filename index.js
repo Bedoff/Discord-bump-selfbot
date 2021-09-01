@@ -5,7 +5,7 @@ const config = require("./config.json")
 
 bot.on("ready", async()=>{
     console.log(bot.user.tag)
-    bot.user.setActivity("İnle Cinle ",{type: "PLAYING"})
+    bot.user.setActivity("Hayalleri ile ",{type: "PLAYING"})
 })
 
 
@@ -14,7 +14,7 @@ bot.on("message",message =>{
     let cmd = messageArray[0].replace(config.prefix,(""))
     let args = messageArray.slice(1)
     if(!message.content.startsWith(config.prefix)) return;
-    if(cmd == "gak") {
+    if(cmd == "start") {
         message.channel.send("BOT ACTIVE")
         message.channel.send("----------------")
         var a =1;
